@@ -1,0 +1,35 @@
+
+简单R1
+查找生日会员
+SELECT *  
+FROM members  
+WHERE EXTRACT(MONTH FROM birthdate) = EXTRACT(MONTH FROM CURRENT_DATE)  
+  AND EXTRACT(DAY FROM birthdate) = EXTRACT(DAY FROM CURRENT_DATE);
+  
+ 客户年龄分布
+SELECT   
+    FLOOR(DATEDIFF(CURRENT_DATE, birthdate) / 365.25) AS age,  
+    COUNT(*) AS count  
+FROM   
+    customers  
+GROUP BY   
+    age  
+ORDER BY   
+    age;
+	
+个人总收入排名
+SELECT   
+    person_id,  
+    SUM(income) AS total_income,  
+    RANK() OVER (ORDER BY total_income DESC) AS rank  
+FROM   
+    income  
+GROUP BY   
+    person_id  
+ORDER BY   
+    rank;
+
+查询给自己转账的用户
+SELECT DISTINCT sender_user_id  
+FROM transactions  
+WHERE sender_user_id = receiver_user_id;
