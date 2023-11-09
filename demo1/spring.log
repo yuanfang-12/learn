@@ -1,0 +1,49 @@
+2023-11-03T09:59:35.479+08:00  INFO 49552 --- [main] com.demo1.Demo1Application               : Starting Demo1Application using Java 20.0.2 with PID 49552 (D:\java\ideaprojects\demo1\target\classes started by 86155 in D:\java\ideaprojects\demo1)
+2023-11-03T09:59:35.488+08:00 DEBUG 49552 --- [main] com.demo1.Demo1Application               : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-03T09:59:35.489+08:00  INFO 49552 --- [main] com.demo1.Demo1Application               : No active profile set, falling back to 1 default profile: "default"
+2023-11-03T09:59:36.044+08:00  INFO 49552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-03T09:59:36.053+08:00  INFO 49552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-03T09:59:36.054+08:00  INFO 49552 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-03T09:59:36.119+08:00  INFO 49552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-03T09:59:36.120+08:00  INFO 49552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 591 ms
+2023-11-03T09:59:36.345+08:00  INFO 49552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-03T09:59:36.351+08:00  INFO 49552 --- [main] com.demo1.Demo1Application               : Started Demo1Application in 1.145 seconds (process running for 1.688)
+2023-11-03T10:01:13.227+08:00  INFO 53304 --- [main] com.demo1.Demo1Application               : Starting Demo1Application using Java 20.0.2 with PID 53304 (D:\java\ideaprojects\demo1\target\classes started by 86155 in D:\java\ideaprojects\demo1)
+2023-11-03T10:01:13.228+08:00 DEBUG 53304 --- [main] com.demo1.Demo1Application               : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-03T10:01:13.229+08:00  INFO 53304 --- [main] com.demo1.Demo1Application               : No active profile set, falling back to 1 default profile: "default"
+2023-11-03T10:01:13.788+08:00  INFO 53304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-03T10:01:13.794+08:00  INFO 53304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-03T10:01:13.795+08:00  INFO 53304 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-03T10:01:13.856+08:00  INFO 53304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-03T10:01:13.856+08:00  INFO 53304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 590 ms
+2023-11-03T10:01:14.080+08:00  INFO 53304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-03T10:01:14.085+08:00  INFO 53304 --- [main] com.demo1.Demo1Application               : Started Demo1Application in 1.202 seconds (process running for 1.767)
+2023-11-03T10:01:42.386+08:00  INFO 53304 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-03T10:01:42.386+08:00  INFO 53304 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-03T10:01:42.387+08:00  INFO 53304 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-03T10:03:11.441+08:00  INFO 56768 --- [main] com.demo1.Demo1Application               : Starting Demo1Application using Java 20.0.2 with PID 56768 (D:\java\ideaprojects\demo1\target\classes started by 86155 in D:\java\ideaprojects\demo1)
+2023-11-03T10:03:11.442+08:00 DEBUG 56768 --- [main] com.demo1.Demo1Application               : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-03T10:03:11.443+08:00  INFO 56768 --- [main] com.demo1.Demo1Application               : No active profile set, falling back to 1 default profile: "default"
+2023-11-03T10:03:12.048+08:00  INFO 56768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-03T10:03:12.054+08:00  INFO 56768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-03T10:03:12.054+08:00  INFO 56768 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-03T10:03:12.118+08:00  INFO 56768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-03T10:03:12.118+08:00  INFO 56768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 629 ms
+2023-11-03T10:03:12.333+08:00  INFO 56768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-03T10:03:12.338+08:00  INFO 56768 --- [main] com.demo1.Demo1Application               : Started Demo1Application in 1.22 seconds (process running for 1.926)
+2023-11-03T10:03:27.777+08:00  INFO 56768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-03T10:03:27.777+08:00  INFO 56768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-03T10:03:27.777+08:00  INFO 56768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-11-03T10:04:58.935+08:00  INFO 59184 --- [main] com.demo1.Demo1Application               : Starting Demo1Application using Java 20.0.2 with PID 59184 (D:\java\ideaprojects\demo1\target\classes started by 86155 in D:\java\ideaprojects\demo1)
+2023-11-03T10:04:58.937+08:00 DEBUG 59184 --- [main] com.demo1.Demo1Application               : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-03T10:04:58.938+08:00  INFO 59184 --- [main] com.demo1.Demo1Application               : No active profile set, falling back to 1 default profile: "default"
+2023-11-03T10:04:59.495+08:00  INFO 59184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-03T10:04:59.502+08:00  INFO 59184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-03T10:04:59.502+08:00  INFO 59184 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-03T10:04:59.563+08:00  INFO 59184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-03T10:04:59.563+08:00  INFO 59184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 587 ms
+2023-11-03T10:04:59.783+08:00  INFO 59184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-03T10:04:59.789+08:00  INFO 59184 --- [main] com.demo1.Demo1Application               : Started Demo1Application in 1.167 seconds (process running for 1.692)
+2023-11-03T10:05:10.061+08:00  INFO 59184 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-03T10:05:10.061+08:00  INFO 59184 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-03T10:05:10.066+08:00  INFO 59184 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
