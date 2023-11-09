@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bocsoft.mapper.FuncMapper">
+    <resultMap id="FuncEntityResultMap" type="FuncEntity">
+        <result property="name" column="NAME"/>
+        <result property="ret" column="ret"/>
+        <result property="dl" column="dl"/>
+        <result property="type" column="type"/>
+    </resultMap>
+
+    <sql id="abc">
+        name,ret,dl,type
+    </sql>
+
+    <select id="selectByName" resultMap="FuncEntityResultMap" parameterType="FuncEntity">
+        select <include refid="abc"/> from func
+        <where>
+            <if test="name != null">
+                and name = #{name, jdbcType=VARCHAR}
+            </if>
+            <if test="ld != null">
+                and name = #{ld, jdbcType=VARCHAR}
+            </if>
+            <if test="nameList != null">
+                and name in
+                <foreach collection="nameList" open="(" close=")" separator="," item="value">
+                    #{value, jdbcType=VARCHAR}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+    <insert id="insert" parameterType="FuncEntity">
+        insert into func values
+        (#{name, jdbcType=VARCHAR},
+         #{ret, jdbcType=INTEGER},
+         #{dl, jdbcType=VARCHAR},
+         #{type, jdbcType=VARCHAR})
+    </insert>
+
+
+</mapper>

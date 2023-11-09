@@ -1,0 +1,18 @@
+server:
+  port: 9080
+
+
+demo:
+  param:
+    data: 123567
+spring:
+  profiles:
+    active: test
+  datasource:
+    username: root
+    password: anshen1222
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mysql?useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.bocsoft.entity
